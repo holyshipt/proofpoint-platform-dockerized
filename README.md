@@ -1,6 +1,6 @@
 ### Proofpoint platform service dockerized 
 
-This is intended for developers debugging, testing purpose only, production quality support is not developed.
+This is intended for [proofpoint platform](https://github.com/proofpoint/platform) developers debugging, testing purpose only, production quality support is not developed.
 
 Dockerizing platform service is achieved by using [yelp/dumb-init](https://github.com/Yelp/dumb-init) as base image, with custom python bootstrap script that secures a pid for running after loading proper config files enforced by the platform:
 - bootstrap: `bin/config.properties`
